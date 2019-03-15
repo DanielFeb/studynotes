@@ -1,0 +1,13 @@
+@startuml
+
+digraph a {
+	rankdir=LR;
+	subgraph cluster {
+	    graph [label="broker"]
+		b, c;
+	}
+	a -> b -> c;
+	a -> d;
+}
+
+@enduml
