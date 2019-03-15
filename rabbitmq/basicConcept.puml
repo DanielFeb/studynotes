@@ -2,7 +2,7 @@
 
 digraph rabbitmq {
     rankdir=LR;
-    graph [fontsize=10 fontname="Verdana" compound=true label="Rabbit MQ"];
+    graph [fontsize=10 fontname="Verdana" compound=true label="Rabbit MQ Basic Concepts"];
     node [shape=record fontsize=10 fontname="Verdana"];
 
     producer [style=rounded];
