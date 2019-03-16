@@ -1,0 +1,88 @@
+@startuml
+
+digraph rabbitmq {
+    rankdir=LR;
+    graph [fontsize=10 fontname="Verdana" compound=true label="Rabbit MQ Basic Concepts"];
+    node [shape=record fontsize=10 fontname="Verdana"];
+
+    producer [style=rounded];
+
+    subgraph cluster_p_connection {
+        graph [label=connection]
+        p_channel1 [label=channel];
+        p_channel2 [label=channel];
+        p_channel3 [label=channel];
+    }
+
+    subgraph cluster_c_connection {
+        graph [label=connection]
+        c_channel1 [label=channel];
+        c_channel2 [label=channel];
+        c_channel3 [label=channel];
+    }
+
+    subgraph cluster_broker1 {
+        graph [label="broker1"];
+        subgraph cluster_vhost {
+            graph [label="vhost /"];
+            exchange1 [label="fanout exchange"];
+            exchange2 [label="direct exchange"];
+            exchange3 [label="topic exchange"];
+            exchange4 [label="header exchange"];
+            subgraph cluster_queue {
+                graph [label="queue1"];
+                message1 [label="message: hello"];
+                message2 [label="message: world"];
+            }
+            queue2;
+            queue3;
+            exchange1:e->message1:W [ label="binding fanout" lhead=cluster_queue];
+            exchange1:e->queue2:w [label=fanout];
+            exchange2:e->queue2:w [label="same routekey"];
+            exchange3:e->queue2:w [label="routekey mapping *,#"];
+            exchange3:e->queue3:w;
+            exchange4:e->queue3:w [label="header mapping"];
+
+        }
+        vhost2 [label="other vhosts..."];
+    }
+    consumer [style=rounded];
+
+
+    producer -> p_channel2 [lhead=cluster_p_connection];
+    p_channel2 -> exchange2 [ltail=cluster_p_connection lhead=cluster_vhost label="push"];
+    exchange2 -> p_channel2 [lhead=cluster_p_connection ltail=cluster_vhost label="ack"];
+    c_channel2 -> consumer [ltail=cluster_c_connection dir="both"];
+    queue2:e -> c_channel2 [ltail=cluster_vhost lhead=cluster_c_connection dir="both" color="red:blue" label="push/pull"];
+
+    #broker2
+    subgraph cluster_broker2 {
+        graph [label=broker2];
+        broker2_vhost2 [label="other vhosts..."];
+        subgraph cluster_broker2_vhost {
+            graph [label="vhost /"];
+            broker2_exchange1 [label="fanout exchanges mirror"];
+            subgraph cluster_broker2_queue {
+                graph [label="queue1 mirror"];
+                broker2_message1 [label="message: hello"];
+                broker2_message2 [label="message: world"];
+            }
+
+            broker2_queue2 [label="queue [D Durable]"];
+            broker2_exchange2 [label="exchange [D Durable]"];
+            broker2_exchange1:e->broker2_message1:W [ label="binding fanout" lhead=cluster_broker2_queue];
+            broker2_exchange2:e->broker2_queue2:w [label=""];
+        }
+    }
+
+    exchange1:s->broker2_exchange1:n [label="policy ha_mode"];
+    message2:s->broker2_message1:n [ltail=cluster_queue lhead=cluster_broker2_queue label="policy ha_mode"];
+
+
+    #durable queues or exchanges will be stored in disk
+    disk [shape="cylinder"];
+    broker2_queue2->disk;
+    broker2_exchange2->disk;
+
+}
+@enduml
