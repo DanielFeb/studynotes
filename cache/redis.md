@@ -1,4 +1,5 @@
 #redis
+ANSI C
 ## 启动
 指定配置文件 redis-service config-file.conf
 
@@ -168,6 +169,10 @@
             * 哨兵要至少3个， 客观下线
             * 脑裂问题， 恢复时旧的master被干掉。 raft算法
 * redis cluster
+    * 分片存储 2^14个是slot 一致性hash
+    * 保证可用性，可以cluster加主从复制
+* 监控
+    
 ## 对ip开放
 配置文件 bind 127.0.0.1             
         
