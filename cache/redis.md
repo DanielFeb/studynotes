@@ -61,7 +61,7 @@ ANSI C
         * 从RDB恢复时速度快
     * 缺点
         * 会丢失数据
-        * 数据集非常大且CPU不够强是，子进程消耗较长时间生成快照，影响redis性能
+        * 数据集非常大且CPU不够强时，子进程消耗较长时间生成快照，影响redis性能
 * AOF
     * 配置
         * appendonly yes 默认不开启
@@ -98,7 +98,7 @@ ANSI C
     * 主从复制流程
         * 从服务器发送psync命令到主服务器（包含同步源runid，同步进度offset）
         * master收到请求，发现同步源为自己，那么根据offset进行增量同步
-            * 如果同步源不是自己，那么圈梁同步。生成rdb传送给slave
+            * 如果同步源不是自己，那么全量同步。生成rdb传送给slave
     * 其他核心知识
         * 一主多从
             * 从可以有sub slave
@@ -171,9 +171,7 @@ ANSI C
 * redis cluster
     * 分片存储 2^14个是slot 一致性hash
     * 保证可用性，可以cluster加主从复制
-* 监控
+* 监控 redislive
     
 ## 对ip开放
 配置文件 bind 127.0.0.1             
-        
-        
