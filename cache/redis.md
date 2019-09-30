@@ -1,5 +1,5 @@
 #redis
-ANSI C
+开发语言：ANSI C
 ## 启动
 指定配置文件 redis-service config-file.conf
 
@@ -78,6 +78,7 @@ ANSI C
         * 性能消耗比RDB高
         * 数据恢复比RDB慢
 ## 集群
+https://www.cnblogs.com/51life/p/10233340.html
 * 主从复制集群
     * 目的
         * 解决单点故障问题
