@@ -7,6 +7,6 @@
 
 ## Paxos
 * 原理  
-https://www.cnblogs.com/hugb/p/8955408.html
+    https://www.cnblogs.com/hugb/p/8955408.html
 * 自己画的图  
-https://www.processon.com/diagraming/5d919da2e4b016b3d5d140e3
+    https://www.processon.com/diagraming/5d919da2e4b016b3d5d140e3

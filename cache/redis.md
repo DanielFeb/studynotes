@@ -130,7 +130,7 @@ https://www.cnblogs.com/51life/p/10233340.html
     * 核心运作流程
         * 服务发现和健康检查流程
             * 搭建主从集群
-            * 启动哨兵，客户端铜鼓哦哨兵发现redis实例信息
+            * 启动哨兵，客户端通过哨兵发现redis实例信息
             * 哨兵通过master发现主从集群内所有节点信息（info replication）
             * 哨兵监控redis实例的健康状况
             * 哨兵会动态变更自己的config文件
@@ -162,7 +162,7 @@ https://www.cnblogs.com/51life/p/10233340.html
             * 存活节点
             * 优先级 slave-priority配置项 越小优先级越高
             * 无优先级情况，根据数据同步情况
-            * 数据同步情况一致，那么根据runid字典旭第一个
+            * 数据同步情况一致，那么根据runid字典序第一个
         * 主从切换过程
             * 被选举的slave执行 slaveof no one
             * 其他slave执行 slaveof当前master
@@ -170,6 +170,7 @@ https://www.cnblogs.com/51life/p/10233340.html
             * 哨兵要至少3个， 客观下线
             * 脑裂问题， 恢复时旧的master被干掉。 raft算法
 * redis cluster
+    * https://blog.csdn.net/truelove12358/article/details/79612954
     * 分片存储 2^14个是slot 一致性hash
     * 保证可用性，可以cluster加主从复制
 * 监控 redislive
