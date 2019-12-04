@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  labels:
+    k8s-app: heapster
+    name: heapster
+    version: v6
+  name: heapster
+  namespace: kube-system
+spec:
+  replicas: 1
+  selector:
+    k8s-app: heapster
+    version: v6
+  template:
+    metadata:
+      labels:
+        k8s-app: heapster
+        version: v6
+    spec:
+      nodeSelector:
+         kubernetes.io/hostname: master
+      containers:
+      - name: heapster
+        image: master:5000/heapster-amd64:v1.4.0
+        imagePullPolicy: IfNotPresent
+        command:
+        - /heapster
+        - --source=kubernetes:http://master:8080?inClusterConfig=false&kubeletHttps=true&kubeletPort=10250&useServiceAccount=true&auth=
+        - --sink=influxdb:http://monitoring-influxdb:8086

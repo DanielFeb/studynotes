@@ -1,4 +1,8 @@
 #service
+### 类型
+* NodePort
+* ClusterIP
+    * http://master:8080/api/v1/proxy/namespaces/XXXX/services/XXXX/
 
 ### create service
 * kubectl create -f 配置文件
