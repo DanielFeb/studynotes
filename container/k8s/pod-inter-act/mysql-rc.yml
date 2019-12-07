@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: mysql
-          image: 10.0.0.11:5000/mysql:5.7
+          image: master:5000/mysql:5.7
           ports:
           - containerPort: 3306
           env:

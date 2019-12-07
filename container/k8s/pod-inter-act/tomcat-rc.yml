@@ -13,11 +13,11 @@ spec:
     spec:
       containers:
         - name: myweb
-          image: 10.0.0.11:5000/tomcat-app:v2
+          image: master:5000/tomcat-app:v2
           ports:
-          - containerPort: 8080
+            - containerPort: 8080
           env:
-          - name: MYSQL_SERVICE_HOST
-            value: 'mysql'
-          - name: MYSQL_SERVICE_PORT
-            value: '3306'
+            - name: MYSQL_SERVICE_HOST
+              value: 'mysql'
+            - name: MYSQL_SERVICE_PORT
+              value: '3306'
