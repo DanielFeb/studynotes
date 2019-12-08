@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: gluster
+  labels:
+    type: glusterfs #可以写 SSD disk之类的
+spec:
+  capacity:
+    storage: 5Gi
+  accessModes:
+    - ReadWriteMany
+# TODO: persistentVolumeReclaimPolicy: Recycle
+  glusterfs:
+    endpoints: glusterfs
+    path: "/ivolume"
+    readOnly: false
