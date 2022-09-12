@@ -1,32 +1,287 @@
 <mxfile host="65bd71144e">
     <diagram id="SUO3vTG1PT1zfUOBkKdO" name="Page-1">
-        <mxGraphModel dx="1178" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="5318" dy="1769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="49" value="基础信息包含： 名称、简介、地理信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+                    <mxGeometry x="2050" y="1480" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="Correct Hotel Basic Info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="1720" y="1572" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="Open SubHotel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="1740" y="2280" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="Sign Contract" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="2160" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="UnMatch SubHotel from Hotel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="1720" y="1790" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="Correct SubHotel Basic Info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="1680" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="Hotel" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="2010" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="Generate Hotel from SubHotel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="526" y="1830" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="Match SubHotel to Existing Hotel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="526" y="2000" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="Create SubHotel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="-26" y="1870" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="SubHotel" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="94" y="1870" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Reject Audit Sheet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="-640" y="2670" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="Audit Sheet" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="-800" y="2470" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Approve Audit Sheet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="-640" y="2360" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="Audit Sheet" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="-520" y="2360" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="Submit Audit Sheet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="-1200" y="2350" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="Submit Join Application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="-1200" y="1880" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Register&lt;br&gt;注册" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="-1760" y="1880" width="120" height="120" as="geometry"/>
+                </mxCell>
                 <mxCell id="5" value="Domain Event" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
                     <mxGeometry x="40" y="40" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="HotSpot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+                <mxCell id="6" value="HotSpot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
                     <mxGeometry x="200" y="40" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Command" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                <mxCell id="7" value="Command" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
                     <mxGeometry x="360" y="40" width="120" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="&lt;font color=&quot;#000000&quot;&gt;Actor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCC00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                <mxCell id="8" value="&lt;font color=&quot;#000000&quot;&gt;Actor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCC00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
                     <mxGeometry x="520" y="50" width="60" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="External System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF66B3;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+                <mxCell id="9" value="External System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF66B3;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="40" y="200" width="160" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="Policy / Rule" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+                <mxCell id="10" value="Policy / Rule" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="240" y="200" width="160" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="Read Model" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="1">
-                    <mxGeometry x="640" y="50" width="160" height="160" as="geometry"/>
+                <mxCell id="11" value="Read Model" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="40" width="160" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="Aggregate" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="200" width="160" height="90" as="geometry"/>
+                <mxCell id="12" value="Aggregate" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="200" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Hotel Generated" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="-60" y="805" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Hotel BasicInfo Corrected" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="850" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Hotel Opened" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="850" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Audit Sheet Created" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="-790" y="1170" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Audit Sheet Approved" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="-650" y="1130" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Join Application Submitted" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="-690" y="870" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Audit Sheet Rejected" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="-650" y="1260" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="加盟申请是审核单的一种" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="-740" y="1030" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="SubHotel Created" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="-520" y="1010" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="SubHotel-Hotel Matched" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="-220" y="920" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="SubHotel Opened" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="1150" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="SubHotel BasicInfo Corrected" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="-200" y="1150" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="SubHotel SupplierInfo Corrected" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="-20" y="1220" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="SubHotel-Hotel UnMatched" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="-60" y="1030" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="基础信息包含： 名称、简介、地理信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="730" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Hotel Generated" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="806" y="1830" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Hotel BasicInfo Corrected" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="2000" y="1572" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Audit Sheet Created" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="-920" y="2350" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Audit Sheet Approved" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="-360" y="2360" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Join Application Submitted" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="-920" y="1880" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="加盟申请是审核单的一种" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+                    <mxGeometry x="-1040" y="2110" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="SubHotel Created" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="254" y="1870" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="SubHotel-Hotel Matched" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="806" y="2000" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="SubHotel BasicInfo Corrected" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="1480" y="1680" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="SubHotel-Hotel UnMatched" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="2000" y="1790" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;font color=&quot;#000000&quot;&gt;Merchant&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCC00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="-1240" y="1960" width="60" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="User Registered" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="-950" y="870" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Contract Signed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="-360" y="1020" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Contract Signed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="1480" y="2160" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="&lt;font color=&quot;#000000&quot;&gt;User&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCC00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="-1800" y="1960" width="60" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="Register&lt;br&gt;注册簿" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="-1640" y="1880" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="User Registered" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="-1480" y="1880" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Join Auit Center&lt;br&gt;申请审核中心" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="-1080" y="1880" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;font color=&quot;#000000&quot;&gt;User&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCC00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="-1240" y="2428" width="60" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Auit Center" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="-1080" y="2350" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&lt;font color=&quot;#000000&quot;&gt;Operator&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCC00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="-680" y="2428" width="60" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="Audit Sheet" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="-800" y="2790" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="&lt;font color=&quot;#000000&quot;&gt;Operator&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCC00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="-680" y="2750" width="60" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="Auit Sheet" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="-520" y="2670" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="Audit Sheet Rejected" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="-360" y="2670" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="Join Application" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="-790" y="2020" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="Approve Join Application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="-640" y="1880" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="Join Application" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="-520" y="1880" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="Join Application Approved" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="-360" y="1880" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="&lt;font color=&quot;#000000&quot;&gt;Operator&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCC00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="-680" y="1960" width="60" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Join Application" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="-270" y="1960" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="Join Policy&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="-130" y="1940" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="SubHotel" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="1754" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="Match System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF66B3;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="1910" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="SubHotel" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="646" y="2000" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="Hotel" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="646" y="1830" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="SubHotel" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="1800" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="&lt;font color=&quot;#000000&quot;&gt;Merchant&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCC00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="1750" width="60" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="SubHotel" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="1680" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="SubHotel" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="1510" y="1770" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="Hotel" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="1510" y="1960" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="Match System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF66B3;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1610" y="1870" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="SubHotel" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="1840" y="1790" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="SubHotel" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="2280" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="&lt;font color=&quot;#000000&quot;&gt;Merchant&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCC00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="2240" width="60" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="Contract" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="2160" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="SubHotel" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="1560" y="2440" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="Contract" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="1560" y="2240" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="&lt;font color=&quot;#000000&quot;&gt;Merchant&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCC00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="1700" y="2380" width="60" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="SubHotel Opened" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="1860" y="2280" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="Vote Rule" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1610" y="1650" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="Hotel" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+                    <mxGeometry x="1840" y="1572" width="160" height="120" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
